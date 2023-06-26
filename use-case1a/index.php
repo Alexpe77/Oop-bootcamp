@@ -24,7 +24,7 @@ $bottlesOfWine = [
 $cart = [$bananas, $apples, $bottlesOfWine];
 
 foreach ($cart as $item) {
-    echo "Item: {$item['name']} <br> Quantity: {$item['quantity']} <br> Price: {$item['price']} <br> € Tax: " . ($item['tax'] * 10) . " %<br>";
+    echo "Item: {$item['name']} <br> Quantity: {$item['quantity']} <br> Price: {$item['price']} € <br> Tax: " . ($item['tax'] * 10) . " %<br>";
 }
 
 $total = 0;
