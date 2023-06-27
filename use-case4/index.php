@@ -34,7 +34,8 @@ $group1 = [
     [ 'name' => 'Edwige', 'grade' => 8],
     [ 'name' => 'Ronald', 'grade' => 15],
     [ 'name' => 'Leo', 'grade' => 6],
-    [ 'name' => 'Marie', 'grade' => 11]
+    [ 'name' => 'Marie', 'grade' => 11],
+    [ 'name' => 'Hector', 'grade' => 7]
 ];
 
 $group2 =  [
@@ -68,4 +69,6 @@ $newAverageGroup2 = calculateAverageGrade($group2);
 echo "New average grade for group 1 : " . number_format($newAverageGroup1, 2) . "<br>";
 echo "New average grade for group 2 : $newAverageGroup2 <br>";
 
+print_r($group1);
+print_r($group2);
 ?>
