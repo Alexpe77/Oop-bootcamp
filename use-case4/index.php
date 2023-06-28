@@ -68,7 +68,4 @@ $newAverageGroup2 = calculateAverageGrade($group2);
 
 echo "New average grade for group 1 : " . number_format($newAverageGroup1, 2) . "<br>";
 echo "New average grade for group 2 : $newAverageGroup2 <br>";
-
-print_r($group1);
-print_r($group2);
 ?>
